@@ -83,6 +83,8 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 550px;
+  background-image: url("/Users/taishusawaki/portfolio/STHEXA.github.io/img/background/background_coffee.png");
+  background-size:cover;
 }
 
 #header .logo {
@@ -94,7 +96,6 @@ li {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-size: 32px;
   line-height: 1;
-  text-align: center;
   color: #fed95c;
   margin-bottom: 5px;
 }
@@ -106,6 +107,7 @@ li {
   color: #f69e53;
   line-height: 1;
   letter-spacing: .1em;
+  
 }
 
 #header .logo-desc {
@@ -113,9 +115,8 @@ li {
   display: block;
   font-size: 14px;
   letter-spacing: .2em;
-  text-align: center;
   margin-top: 10px;
-
+  
 }
 
 /*--------------------------------
