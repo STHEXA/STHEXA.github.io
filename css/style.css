@@ -83,6 +83,8 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 550px;
+  background-image: url("/Users/taishusawaki/portfolio/STHEXA.github.io/img/background/background_coffee.png");
+  background-size:cover;
 }
 
 #header .logo {
@@ -91,31 +93,30 @@ li {
 
 #header .logo-name {
   display: block;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-size: 32px;
   line-height: 1;
-  text-align: center;
   color: #fed95c;
   margin-bottom: 5px;
 }
 
 #header .logo-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-size: 88px;
   font-weight: normal;
   color: #f69e53;
   line-height: 1;
   letter-spacing: .1em;
+  
 }
 
 #header .logo-desc {
-  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   display: block;
   font-size: 14px;
   letter-spacing: .2em;
-  text-align: center;
   margin-top: 10px;
-
+  
 }
 
 /*--------------------------------
@@ -124,7 +125,7 @@ li {
 
 #gnav {
   padding: 10px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 
   z-index: 100;
 }
@@ -178,7 +179,7 @@ li {
 }
 
 .section .section-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   text-transform: lowercase;
   letter-spacing: .2em;
   display: inline-block;
@@ -439,7 +440,7 @@ li {
 }
 
 #footer .footer-link ul {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   letter-spacing: .1em;
   text-transform: lowercase;
   margin-bottom: 30px;
