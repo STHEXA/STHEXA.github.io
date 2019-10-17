@@ -83,7 +83,7 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 550px;
-  background-image: url("/Users/taishusawaki/portfolio/STHEXA.github.io/img/background/background_coffee.png");
+  background-image: url("img/background/background_coffee.png");
   background-size:cover;
 }
 
