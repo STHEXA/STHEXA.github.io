@@ -24,6 +24,7 @@
 <body>
   <div id="wrapper">
     <header id="header">
+      <!-- <img src="img/background/background_coffee.png" alt=""> -->
       <h1 class="logo">
         <span class="logo-name">Taishu Sawaki’s</span>
         <span class="logo-title">PORTFOLIO</span>
@@ -37,14 +38,15 @@
         <li><a href="#works">WORKS</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li>
-            <div id="Audio-Control">
-                <audio id="bgm" src="music/hitotoki-no-jikan.mp3" autoplay loop muted>
-                  BGMを再生できないようです。
-                </audio>
-                <i class="fas fa-music"></i>
-                <button onclick="enableMute()" class="off active" type="button">OFF</button>
-                <button onclick="disableMute()" class="on" type="button">ON</button>
-              </div>
+          <audio id="bgm" autoplay loop muted>
+            <source src="music/hitotoki-no-jikan.mp3">
+            BGMを再生できないようです。
+          </audio>
+          <div id="Audio-Control">
+            <i class="fas fa-music"></i>
+            <button onclick="enableMute()" class="off active" type="button">OFF</button>
+            <button onclick="disableMute()" class="on" type="button">ON</button>
+          </div>
         </li>
       </ul>
     </nav>
