@@ -10,6 +10,7 @@
   <meta property="og:image" content="img/ogp.png">
   <meta name="description" content="未経験エンジニア澤木泰秀のポートフォリオです。" />
   <title>未経験エンジニア澤木泰秀 ポートフォリオ</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
@@ -17,6 +18,7 @@
   <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 
 <body>
@@ -30,11 +32,20 @@
     </header>
     <nav id="gnav">
       <ul>
-        <li><a href="#feature">PROFILE</a></li>
-        <li><a href="#works">WORKS</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#skill">SKILL</a></li>
+        <li><a href="#works">WORKS</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li>
+            <div id="Audio-Control">
+                <audio id="bgm" src="music/hitotoki-no-jikan.mp3" autoplay loop muted>
+                  BGMを再生できないようです。
+                </audio>
+                <i class="fas fa-music"></i>
+                <button onclick="enableMute()" class="off active" type="button">OFF</button>
+                <button onclick="disableMute()" class="on" type="button">ON</button>
+              </div>
+        </li>
       </ul>
     </nav>
     <main id="contents">
@@ -43,16 +54,19 @@
           <div class="section-title-block">
             <h2 class="section-title">ABOUT</h2>
               <p class="section-desc">
-                こんにちは。ヤマダハナコと申します。
+                初めまして！澤木泰秀と申します。
               </p>
           </div>
           <div class="two-column-wrapper">
             <div class="two-column-image">
-              <img src="img/profile/img_profile.png" alt="">
+              <img src="img/profile/profile-picture.png" alt="">
             </div>
             <div class="two-column-desc">
               <p class="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  現在ユーザ系sier企業で保守運用の業務を担当しています。社会人3年目です。1年目の時に携わったGoogle Apps Scriptを用いてのwebアプリケーションをきっかけにwebアプリケーションの開発に興味を抱きwebエンジニアになるよう行動しております。
+                  <br>現在TECH::EXPERT受講中
+                  <br>Ruby/Ruby on Rails/HTML/CSS/javascript
+                  <br>趣味:筋トレ、写真、カフェ巡り、コーヒー、映画鑑賞、ゲーム
               </p>
             </div>
           </div>
@@ -96,7 +110,7 @@
                   <img src="img/skill/icon_skill.png" alt="">
                 </div>
                 <div class="skill-desc">
-                  <h3 class="skill-desc-title">WordPress</h3>
+                  <h3 class="skill-desc-title">jQuery</h3>
                   <div class="rating">
                     <p class="rate rate4"></p>
                   </div>
@@ -108,7 +122,19 @@
                   <img src="img/skill/icon_skill.png" alt="">
                 </div>
                 <div class="skill-desc">
-                  <h3 class="skill-desc-title">Photoshop</h3>
+                  <h3 class="skill-desc-title">Vue.js</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Ruby</h3>
                   <div class="rating">
                     <p class="rate rate4"></p>
                   </div>
@@ -120,7 +146,43 @@
                   <img src="img/skill/icon_skill.png" alt="">
                 </div>
                 <div class="skill-desc">
-                  <h3 class="skill-desc-title">Illustrator</h3>
+                  <h3 class="skill-desc-title">Ruby on Rails</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Git/GitHub</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">AWS</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Heroku</h3>
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
@@ -141,12 +203,12 @@
           </div>
           <div class="card-wrapper my-gallery">
             <figure class="card">
-              <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+              <a href="/Users/taishusawaki/portfolio/STHEXA.github.io/img/works/screencapture-localhost-3000-stores-4-products-2019-10-14-12_14_08.png" data-size="980x668" class="card-image">
+                <img width="420" height="286" src="/Users/taishusawaki/portfolio/STHEXA.github.io/img/works/thumb/screencapture-localhost-3000-stores-4-products-2019-10-14-12_14_08_Fotor.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-title">TheBestCup(コーヒー記録アプリ)</p>
+                <p class="card-caption-info">個人アプリ</p>
                 <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
               </figcaption>
             </figure>

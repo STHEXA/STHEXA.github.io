@@ -1,5 +1,5 @@
 // PhotoSwipe
-initPhotoSwipeFromDOM('.my-gallery');
+// initPhotoSwipeFromDOM('.my-gallery');
 
 $(function() {
 
@@ -54,4 +54,21 @@ $(function() {
       $("#contents").css("margin-top", "0");
     }
   });
+});
+
+var el = document.getElementById("bgm");
+
+function enableMute() {
+    el.muted = true;
+}
+ 
+function disableMute() {
+    el.muted = false;
+}
+ 
+$(function(){
+    $('#Audio-Control button').click(function(){
+      console.log(el);
+        $('#Audio-Control button').toggleClass('active');
+    });
 });
