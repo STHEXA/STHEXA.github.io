@@ -320,17 +320,17 @@ li {
   justify-content: space-between;
 }
 
-#skill .card:first-child {
+/* #skill .card:first-child {
   flex-basis: 100%;
-}
+} */
 
-#skill .card:nth-of-type(5) {
+/* #skill .card:nth-of-type(5) {
   flex-basis: 100%;
 }
 
 #skill .card:nth-of-type(7) {
   flex-basis: 100%;
-}
+} */
 
 #skill .skill-icon {
   flex-basis: 75px;
@@ -423,6 +423,7 @@ li {
 
 #contact .contact-list li {
   text-align: center;
+  margin: 0 auto;
 }
 
 #contact .contact-list li a {
