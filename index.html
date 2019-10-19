@@ -37,7 +37,7 @@
         <li><a href="#skill">SKILL</a></li>
         <li><a href="#works">WORKS</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li>
+        <!-- <li>
           <audio id="bgm" autoplay loop muted preload="auto">
             <source src="music/hitotoki-no-jikan.mp3">
             BGMを再生できないようです。
@@ -47,7 +47,7 @@
             <button onclick="enableMute()" class="off active" type="button">OFF</button>
             <button onclick="disableMute()" class="on" type="button">ON</button>
           </div>
-        </li>
+        </li> -->
       </ul>
     </nav>
     <main id="contents">
@@ -94,7 +94,8 @@
                   <div class="rating">
                     <p class="rate rate4"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">記述の方法を調べながらであれば、自分の表現したいように組み立てることができます。また大抵のサイトは模写で再現ができます。Haml＆Sassを扱うこともできます。
+                  </p>
                 </div>
               </div>
               <div class="card">
@@ -106,7 +107,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">非同期通信の際に使用しており、基本的な部分であれば、記述することができます。</p>
                 </div>
               </div>
               <div class="card">
@@ -118,7 +119,7 @@
                   <div class="rating">
                     <p class="rate rate4"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">導入の仕方やライブラリを仕様しての実装をすることができます。</p>
                 </div>
               </div>
               <div class="card">
@@ -130,7 +131,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">現在Udemyの教材を仕様し、学習中です。テンプレート構文であれば扱うことができます。</p>
                 </div>
               </div>
               <div class="card">
@@ -142,7 +143,7 @@
                   <div class="rating">
                     <p class="rate rate4"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">スクールで中心的に学習しているバックエンドのプログラミング言語です。</p>
                 </div>
               </div>
               <div class="card">
@@ -154,7 +155,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">基礎的な部分で、MVCの理解、CRUDの機能を持ったWEBアプリを作成できます。</p>
                 </div>
               </div>
               <div class="card">
@@ -167,7 +168,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">学習の際のコードの管理はこちらで行っています。</p>
                 </div>
               </div>
               <div class="card">
@@ -179,7 +180,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">AWSを用いてのデプロイが可能です。スクール課題のアプリはEC2、S3を使用しています。</p>
                 </div>
               </div>
               <div class="card">
@@ -191,7 +192,7 @@
                   <div class="rating">
                     <p class="rate rate3"></p>
                   </div>
-                  <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  <p class="text">herokuでのデプロイが可能です。個人アプリはこちらを使用し、デプロイしております。</p>
                 </div>
               </div>
             </div>
@@ -209,25 +210,25 @@
           <div class="card-wrapper my-gallery">
             <figure class="card">
               <a href="img/works/thebestcup.png" data-size="980x668" class="card-image">
-                <img width="420" height="286" src="img/works/thumb/thumb_thebesucup.png" alt="" />
+                <img src="img/works/thumb/thumb_thebestcup.png" alt="" />
               </a>
               <figcaption class="card-caption">
                 <p class="card-caption-title">TheBestCup(コーヒー記録アプリ)</p>
                 <p class="card-caption-info">個人アプリ</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-url"><a class="url-link" href="https://thebestcup.herokuapp.com/" target="_blank">Link</a></p>
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+              <a href="img/works/chatspace.png" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_chatspace.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-title">Chatspace</p>
+                <p class="card-caption-info">スクール作品</p>
+                <p class="card-caption-url"><a class="url-link" href="http://54.238.162.68/" target="_blank">Link</a></p>
               </figcaption>
             </figure>
-            <figure class="card">
+            <!-- <figure class="card">
               <a href="img/works/work03.jpg" data-size="980x668" class="card-image">
                 <img src="img/works/thumb/thumb_work03.jpg" alt="" />
               </a>
@@ -267,7 +268,7 @@
                 <p class="card-caption-info">Design / Coding</p>
                 <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
               </figcaption>
-            </figure>
+            </figure> -->
 
           </div>
         </div>
@@ -279,15 +280,15 @@
           <div class="section-title-block">
             <h2 class="section-title">CONTACT</h2>
             <p class="section-desc">
-              お問合わせは下記のフォームかSNSからご連絡をください。
+              お問合わせは下記のSNSからご連絡をください。
             </p>
           </div>
           <div class="contact-wrapper">
             <div class="contact-list">
               <ul>
-                <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span
-                      class="contact-list-desc">フォーム</span></a></li>
-                <li><a href="#" target="_blank"><img src="https://img.icons8.com/color/96/000000/twitter-circled.png"><span
+                <!-- <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">フォーム</span></a></li> -->
+                <li><a href="https://twitter.com/STHEXA666" target="_blank"><img src="https://img.icons8.com/color/96/000000/twitter-circled.png"><span
                       class="contact-list-desc">Twitter</span></a></li>
                 <!-- <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
                       class="contact-list-desc">Facebook</span></a></li> -->
