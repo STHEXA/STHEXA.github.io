@@ -482,6 +482,12 @@ li {
   text-align: center;
 }
 
+#footer a {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: center;
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 
